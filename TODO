@@ -1,0 +1,13 @@
+- Use build scripts to generate working statically-compiled Tor
+- More antiforensic fun!
+- Write script to non-destructively disable the collection of history
+- Autorun script enumeration bootexplorer.sh needs some work
+- Write C backdoor compilation scripts
+- Distinguish remote compilation
+- Add windows/powershell handling options
+
+# Things to add when windows support works
+https://github.com/subTee/gcat
+https://raw.githubusercontent.com/Kabot/LinEnum/master/LinEnum.sh
+https://github.com/mubix/htshells
+Steal more things from pwnwiki.io

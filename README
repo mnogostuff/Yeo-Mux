@@ -1,0 +1,20 @@
+YEOMUX
+======
+
+Tmux configuration for hackers
+
+build/ -- scripts to download files yeomux makes use of
+modules/ -- scripts used by yeomux
+modules/00core.sh -- core scripts
+extern/ -- things that we will make use of externally
+example/ -- involved scripts that make use of this
+
+PURPOSE
+-------
+This is intended to make manual hacking less painful.
+
+This is used on the host system with the intention of handling interaction on the operational box. That way you can keep private code off the disk of the operational box and only drop things when you need them.
+
+Possible use:
+Clear all logs on operational box, upload rootkit, place reverse shell listener.
+When reverse shell listener gets a hit, investigate box, upload rootkit, move data out of the endpoint.
